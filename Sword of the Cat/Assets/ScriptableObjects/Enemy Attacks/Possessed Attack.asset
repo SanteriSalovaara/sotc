@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b57c8fa7014bea479ef3c6205f03687, type: 3}
+  m_Name: Possessed Attack
+  m_EditorClassIdentifier: 
+  projectiles:
+    enableProjectiles: 0
+    projectile: {fileID: 0}
+    projectileCount: 0
+    projectileSpeed: 0
+    accuracyModifier: 0
+    bounceCount: 0
+    fireSound: {fileID: 0}
+  maxRange: 10
+  preferredRange: 2
+  angle: 133
+  damage: 10
+  lifetime: 0.5
+  useWorldSpace: 0
+  attackParticles:
+    particleSystem: {fileID: 0}
+    particleCount: 0
+    particleRepetitionCount: 0
+    particleRepetitionInterval: 0
+    particleOrientation: {x: 0, y: 0, z: 0, w: 0}
+  hitPlayerParticles:
+    particleSystem: {fileID: 0}
+    particleCount: 0
+    particleRepetitionCount: 0
+    particleRepetitionInterval: 0
+    particleOrientation: {x: 0, y: 0, z: 0, w: 0}
+  hitOtherParticles:
+    particleSystem: {fileID: 0}
+    particleCount: 0
+    particleRepetitionCount: 0
+    particleRepetitionInterval: 0
+    particleOrientation: {x: 0, y: 0, z: 0, w: 0}

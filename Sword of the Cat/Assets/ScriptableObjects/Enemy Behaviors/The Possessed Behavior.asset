@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d421afa5d5b85b438093b5ab221626f, type: 3}
+  m_Name: The Possessed Behavior
+  m_EditorClassIdentifier: 
+  enemyID: possessed
+  classTag: melee
+  targetTag: player
+  baseAccuracy: 0.321
+  speed: 1
+  maxHealth: 40
+  aggroRange: 7
+  awakeRange: 14
+  intelligence: 1
+  phases:
+  - {fileID: 11400000, guid: 0c3479c18d870374ca053367dea6e332, type: 2}
+  - {fileID: 11400000, guid: 9f4e4a39bdbad674098666b54c04abb7, type: 2}
+  footstepSound: {fileID: 0}
+  hurtSound: {fileID: 0}
+  fallbackAttackSound: {fileID: 0}
+  fallbackIdleSound: {fileID: 0}
