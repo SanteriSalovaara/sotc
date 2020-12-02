@@ -56,18 +56,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SpriteGlow-1.8-release\Assets\ThirdParty\UnityCommon\Editor\PackageExporter.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Editor\AccordionElementEditor.cs" />
     <Compile Include="Assets\_MK\MKGlassFree\Editor\MKGlassFreeEditor.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Editor\NonDrawingGraphicEditor.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Editor\UIExtensionsMenuOptions.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Editor\BoxSliderEditor.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Editor\TextPicEditor.cs" />
     <Compile Include="Assets\RainMaker\Editor\RainMakerEditor.cs" />
     <Compile Include="Assets\Tutorial_Info\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Editor\CompressionTests.cs" />
     <Compile Include="Assets\SpriteGlow-1.8-release\Assets\ShaderGraph\Editor\GlowOutsideNode.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Editor\uGUITools.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Editor\CanvasGroupActivator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
