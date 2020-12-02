@@ -4,3 +4,9 @@ Temp/*
 UserSettings/*
 */Library/*
 Library/*
+*/.vs/*
+.vs/*
+*/obj/*
+obj/*
+*/Logs/*
+Logs/*
