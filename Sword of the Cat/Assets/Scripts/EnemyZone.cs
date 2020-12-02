@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class EnemyZone : MonoBehaviour
 {
-    void OnCollisionEnter(Collision collision) {
-        GameObject go = collision.gameObject;
+    void OnTriggerEnter(Collider collider) {
+        Transform transform = collider.transform;
+        Debug.Log("ASD");
         // Check if the entity entering the zone is a player
-        if (go.tag == "Player") {
+        if (transform.tag == "Player") {
             // Loop all child-gameobjects and check if they are enemies
             foreach(Transform childTransform in this.transform) {
                 GameObject child = childTransform.gameObject;
@@ -19,10 +20,10 @@ public class EnemyZone : MonoBehaviour
         }
     }
 
-    void OnCollisionExit(Collision collision) {
-        GameObject go = collision.gameObject;
+    void OnTriggerExit(Collider collider) {
+        Transform transform = collider.transform;
         // Check if the entity entering the zone is a player
-        if (go.tag == "Player") {
+        if (transform.tag == "Player") {
             // Loop all child-gameobjects and check if they are enemies
             foreach(Transform childTransform in this.transform) {
                 GameObject child = childTransform.gameObject;
