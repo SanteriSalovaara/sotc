@@ -10,17 +10,21 @@ public class EnemyController : MonoBehaviour
     public GameObject corpsePrefab;
     public Transform[] players;
     Transform closestPlayer;
+    Vector3 sleepPosition;
     Rigidbody rb;
     NavMeshAgent nav;
     Vector3 lastLocation;
     public float hp;
     public AttackController.TagMask entityTag;
+    public bool hasAggro;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         nav = GetComponent<NavMeshAgent>();
         hp = behavior.maxHealth;
+        hasAggro = false;
+        sleepPosition = this.transform.position;
     }
 
     Transform GetClosestPlayer()
@@ -42,7 +46,11 @@ public class EnemyController : MonoBehaviour
 
 
     void FixedUpdate()
-    {
+    {   
+        if (!hasAggro) {
+            nav.destination = sleepPosition;
+            return;
+        }
         closestPlayer = GetClosestPlayer();
         switch (behavior.intelligence)
         {
