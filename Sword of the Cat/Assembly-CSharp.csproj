@@ -59,35 +59,20 @@
     <Compile Include="Assets\SpriteGlow-1.8-release\Assets\Scripts\GlowColorRandomizer.cs" />
     <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\EnemyPhase.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\SpriteGlow-1.8-release\Assets\Scripts\TestSpriteGlowBehaviour.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\Code\RPGCharacterWeaponControllerFREE.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\Code\IKHandsFREE.cs" />
     <Compile Include="Assets\Scripts\PlayerBattleController.cs" />
-=======
-    <Compile Include="Assets\Scripts\Enemy\EnemyPhase.cs" />
-    <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
-    <Compile Include="Assets\SpriteGlow-1.8-release\Assets\Scripts\TestSpriteGlowBehaviour.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\RPGCharacterWeaponControllerFREE.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\IKHandsFREE.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerBattleController.cs" />
->>>>>>> 8c36e05e343817f8ec899cd981508c85add27f28
     <Compile Include="Assets\Fighter Pack Bundle FREE\Code\CameraControl.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCollisionType.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\BruteForceMesh.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\Code\RPGCharacterInputControllerFREE.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\DebugDraw.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\InventoryController.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\Scripts\SimpleStateMachine.cs" />
     <Compile Include="Assets\Scripts\AttackController.cs" />
-=======
-    <Compile Include="Assets\Scripts\UI\InventoryController.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\Scripts\SimpleStateMachine.cs" />
-    <Compile Include="Assets\Scripts\Player\AttackController.cs" />
->>>>>>> 8c36e05e343817f8ec899cd981508c85add27f28
     <Compile Include="Assets\RPG Character Animation Pack FREE\Code\GUIControlsFREE.cs" />
     <Compile Include="Assets\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Math3d.cs" />
@@ -98,10 +83,10 @@
     <Compile Include="Assets\RainMaker\Prefab\RainScript2D.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperMath.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCollider.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyBehavior.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\BSPTree.cs" />
+    <Compile Include="Assets\Scripts\EnemyZone.cs" />
     <Compile Include="Assets\Tutorial_Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\PlayerStatsController.cs" />
     <Compile Include="Assets\Fighter Pack Bundle FREE\Code\FighterAnimationDemoFREE.cs" />
@@ -111,20 +96,6 @@
     <Compile Include="Assets\RPG Character Animation Pack FREE\Code\RPGCharacterControllerFREE.cs" />
     <Compile Include="Assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
-=======
-    <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
-    <Compile Include="Assets\Scripts\Enemy\EnemyBehavior.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\BSPTree.cs" />
-    <Compile Include="Assets\Tutorial_Info\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerStatsController.cs" />
-    <Compile Include="Assets\Fighter Pack Bundle FREE\Code\FighterAnimationDemoFREE.cs" />
-    <Compile Include="Assets\SpriteGlow-1.8-release\Assets\ThirdParty\UnityCommon\Runtime\SceneSwitcher.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\Scripts\Gravity.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerMovementController.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\RPGCharacterControllerFREE.cs" />
-    <Compile Include="Assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
-    <Compile Include="Assets\Scripts\UI\Item.cs" />
->>>>>>> 8c36e05e343817f8ec899cd981508c85add27f28
     <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCharacterController.cs" />
     <Compile Include="Assets\SpriteGlow-1.8-release\Assets\ThirdParty\UnityCommon\Runtime\Utils\StringUtils.cs" />
